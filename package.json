@@ -1,0 +1,32 @@
+{
+  "name": "expense-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "npx drizzle-kit up",
+    "db:studio": "npx drizzle-kit studio"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.12.5",
+    "@neondatabase/serverless": "^0.10.4",
+    "@radix-ui/react-slot": "^1.1.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.40.0",
+    "lucide-react": "^0.479.0",
+    "next": "15.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "drizzle-kit": "^0.30.5",
+    "tailwindcss": "^4"
+  }
+}

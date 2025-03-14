@@ -1,0 +1,2 @@
+[submodule "expense-tracker"]
+	url = https://github.com/moodymudy/expense-tracker.git
