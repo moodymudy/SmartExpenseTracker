@@ -11,7 +11,6 @@ function SideNav() {
     const menuList = [
         { id: 1, name: 'Dashboard', icon: LayoutGrid, path: '/dashboard' },
         { id: 2, name: 'Budget', icon: PiggyBank, path: '/dashboard/budgets' },
-        { id: 3, name: 'Expenses', icon: ReceiptText, path: '/dashboard/expenses' },
     ];
 
     const path = usePathname();  
