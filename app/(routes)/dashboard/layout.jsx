@@ -6,7 +6,7 @@ import { db } from '@/utils/dbconfig'
 import { Budgets } from '@/utils/schema'
 import { eq } from 'drizzle-orm'
 import { useUser } from '@clerk/nextjs'
-import { useRouter } from 'next/navigation'  // ✅ Correct import
+import { useRouter } from 'next/navigation'  
 
 function DashboardLayout({ children }) {
   const { user } = useUser();
