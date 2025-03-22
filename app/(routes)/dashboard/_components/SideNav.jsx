@@ -10,9 +10,8 @@ import { usePathname } from 'next/navigation';
 function SideNav() {
     const menuList = [
         { id: 1, name: 'Dashboard', icon: LayoutGrid, path: '/dashboard' },
-        { id: 2, name: 'Budget', icon: PiggyBank, path: '/dashboard/budget' },
+        { id: 2, name: 'Budget', icon: PiggyBank, path: '/dashboard/budgets' },
         { id: 3, name: 'Expenses', icon: ReceiptText, path: '/dashboard/expenses' },
-        { id: 4, name: 'Upgrade', icon: ShieldCheck, path: '/dashboard/upgrade' }
     ];
 
     const path = usePathname();  

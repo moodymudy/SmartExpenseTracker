@@ -1,7 +1,7 @@
 import { Outfit } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
-
+import { Toaster, toast } from 'sonner';
 const outfit = Outfit({
   variable: "--font-outfit",
   subsets: ["latin"],
@@ -16,7 +16,9 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={outfit.variable}>{children}</body>
+        <body className={outfit.variable}>
+          <Toaster/>
+          {children}</body>
       </html>
     </ClerkProvider>
   );

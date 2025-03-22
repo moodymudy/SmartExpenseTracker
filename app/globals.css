@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @plugin "tailwindcss-animate";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 @custom-variant dark (&:is(.dark *));
 
